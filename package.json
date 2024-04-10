@@ -7,7 +7,8 @@
     "dev": "prettier ./src/**/* --write && vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint \"src/**/*.{vue,js,jsx,ts,tsx}\""
+    "lint": "eslint \"src/**/*.{vue,js,jsx,ts,tsx}\"",
+    "prepare": "husky"
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.24.1",
