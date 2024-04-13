@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "prettier ./src/**/* --write && vite",
+    "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint \"src/**/*.{vue,js,jsx,ts,tsx}\"",
-    "prepare": "husky"
+    "format": "prettier ./src/**/* --write --no-error-on-unmatched-pattern",
+    "lint": "eslint --cache \"src/**/*.{vue,js,jsx,ts,tsx}\"",
+    "prepare": "husky",
+    "commitlint": "commitlint --config commitlint.config.js -e -V"
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.24.1",
@@ -30,6 +32,7 @@
     "eslint-plugin-vue": "^9.24.1",
     "globals": "^15.0.0",
     "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "postcss": "^8.4.38",
     "prettier": "3.2.5",
     "rollup-plugin-visualizer": "^5.12.0",
@@ -43,5 +46,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "lint-staged": {
+    "*.{vue,js,ts,jsx,tsx,md,json}": "eslint"
   }
 }
