@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue';
+import TechList from '@/components/TechList.vue';
 </script>
 
 <template>
-  <HelloWorld class="text-black dark:text-gray-300" />
+  <TechList class="text-black dark:text-gray-300" />
 </template>

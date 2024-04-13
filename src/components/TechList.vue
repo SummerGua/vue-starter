@@ -1,6 +1,11 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-const techs = ref(['Vue 3 / Vue-router 4 / Pinia', 'tailwindCSS', 'axios']);
+const techs = ref([
+  'Vue 3 / Vue-router 4 / Pinia',
+  'TailwindCSS',
+  'IconPark',
+  'NProgress',
+]);
 </script>
 
 <template>

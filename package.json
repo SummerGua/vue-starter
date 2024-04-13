@@ -16,6 +16,7 @@
     "@babel/eslint-parser": "^7.24.1",
     "@icon-park/vue-next": "^1.4.2",
     "@types/node": "^20.12.6",
+    "nprogress": "^0.2.0",
     "pinia": "^2.1.7",
     "vue": "^3.4.21",
     "vue-router": "4"
@@ -24,6 +25,7 @@
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@eslint/js": "^9.0.0",
+    "@types/nprogress": "^0.2.3",
     "@typescript-eslint/parser": "^7.6.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "autoprefixer": "^10.4.19",
