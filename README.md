@@ -1,12 +1,11 @@
-# my vue3 + vite template
+# Evuething
+
+A Vite + Vue3 starter
+
+link: https://evuething.netlify.app/
 
 ## Launch this app
 
 1. `pnpm i`
 2. `pnpm run lint`
 3. `pnpm run dev`
-
-## Log
-
-4-10: 解决 lint 和 husky
-lint 是新版本问题
