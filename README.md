@@ -2,7 +2,7 @@
 
 A Vite + Vue3 starter
 
-link: https://evuething.netlify.app/
+link: <https://evuething.netlify.app/>
 
 ## Launch this app
 

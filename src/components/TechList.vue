@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 const techs = ref([
   'Vue 3 / Vue-router 4 / Pinia',
+  'VueUse',
   'TailwindCSS',
   'IconPark',
   'NProgress',

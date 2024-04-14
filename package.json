@@ -1,14 +1,14 @@
 {
   "name": "vue-starter",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "format": "prettier ./src/**/* --write --no-error-on-unmatched-pattern",
-    "lint": "eslint --cache \"src/**/*.{vue,js,jsx,ts,tsx}\"",
+    "lint": "eslint --cache \"src/**/*.{vue,js,jsx,ts,tsx}\" --fix",
     "prepare": "husky",
     "commitlint": "commitlint --config commitlint.config.js -e -V"
   },
@@ -16,6 +16,7 @@
     "@babel/eslint-parser": "^7.24.1",
     "@icon-park/vue-next": "^1.4.2",
     "@types/node": "^20.12.6",
+    "@vueuse/core": "^10.9.0",
     "nprogress": "^0.2.0",
     "pinia": "^2.1.7",
     "vue": "^3.4.21",
