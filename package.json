@@ -4,11 +4,11 @@
   "version": "0.0.2",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "pnpm run format && vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "format": "prettier ./src/**/* --write --no-error-on-unmatched-pattern",
-    "lint": "eslint --cache \"src/**/*.{vue,js,jsx,ts,tsx}\" --fix",
+    "lint": "eslint --cache \"src/**/*.{vue,js,jsx,ts,tsx}\"",
     "prepare": "husky",
     "commitlint": "commitlint --config commitlint.config.js -e -V"
   },

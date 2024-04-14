@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import TheFooter from '@/components/TheFooter.vue';
 import LinkBar from '@/components/LinkBar.vue';
+import { TreeForm } from '@/components/TreeForm/index';
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import LinkBar from '@/components/LinkBar.vue';
     <link-bar></link-bar>
     <router-view class="m-4" />
     <the-footer></the-footer>
+    <tree-form class="self-center mt-8"></tree-form>
   </div>
 </template>
